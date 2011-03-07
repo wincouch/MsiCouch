@@ -1,9 +1,9 @@
 # Wix Installer for CouchDB
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!! WARNING: this MSI installer is *very* alpha at this point. In particular it may not
-handle uninstall correctly. Make sure you have backed up your couch data in a safe location. Your help in testing is [appreciated](https://github.com/wincouch/wixcouch/issues)
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+# WARNING: this MSI installer is *very* alpha at this point
+
+In particular it may not handle uninstall correctly. Make sure you have *backed up your couch data* in a safe location. Your help in testing is [appreciated](https://github.com/wincouch/wixcouch/issues)
 
 ## Purpose
 
@@ -68,7 +68,7 @@ bundling. Don't run it, but go in & prune out database files & other crud.
 Lastly, convert `etc/*.ini` to PC/ANSI instead of UNIX file format.
 
 Install the compiler [wix](http://wix.codeplex.com/) and
-[warsetup](http://sourceforge.net/projects/warsetup/files/]\)
+[warsetup](http://sourceforge.net/projects/warsetup/files/)
 
 TODO:
 
