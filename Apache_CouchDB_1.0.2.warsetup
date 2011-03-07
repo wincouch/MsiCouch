@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WarSetup-Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" projectRunAfterInstall="false" nextUniqueId="65945" projectName="Apache CouchDB" projectUuid="854fc88d-ff52-41bf-946d-0819da1545f8" projectUpgradeUuid="7706eba9-61d5-4570-b56a-15e4b9a2b33b" projectVersion="1.0.2.0" projectOrganization="Apache Software Foundation" projectFromWindowsVersion="Windows 2000" projectMustBeAdministratorToInstall="false" project64BitTarget="false" projectTargetDirectory="C:\relax\release" projectTargetName="Apache_CouchDB_1.0.2" projectType="0" projectUserInterface="WixUI_InstallDir">
+  <LicencePaths>
+    <string>C:\Program Files\Jgaa's Internet\War Setup\Licenses</string>
+    <string>license</string>
+  </LicencePaths>
+  <Virgin>false</Virgin>
+  <projectFeatures featureId="ID88468C80B072B08F86266A9244F12D4B" featureName="Apache CouchDB" featureDescription="The complete package" configurableDirectory="APPLICATIONFOLDER" configurableDirectoryDefaultPath="[ProjectName]" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+    <childFeatures featureId="PROGRAM" featureName="Program" featureDescription="The Main Executable" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+      <defaultInstallMode>3</defaultInstallMode>
+      <directories dirId="ID1023" srcPath="..\release\vanilla_build_CouchDB_1.0.2" dstPath="" patterns=".*" excludePatterns="^(erl\.ini)|(couch\.log)$" recurse="true" preventEmptyDirectories="false" addToPath="false" ideHeaderFiles="false" ideExecutables="false" ideLibrary="false" ideMicrosoftVisualStudio2003="false" ideMicrosoftVisualStudio2005="false">
+        <pathComponent componentId="ID1022" componentGuid="72d261bb-802d-4b1a-a267-d5fbd514081e">
+          <addToCreateFolder>false</addToCreateFolder>
+        </pathComponent>
+      </directories>
+    </childFeatures>
+    <childFeatures featureId="DOCUMENTATION" featureName="Documentation" featureDescription="The documentation" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+      <defaultInstallMode>3</defaultInstallMode>
+    </childFeatures>
+    <childFeatures featureId="SERVICE" featureName="Install CouchDB as a service" featureDescription="CouchDB can be run as a Windows service independently of the logged-in user" enableInDefaultInstall="true" enableInMinimalInstall="true" excludeFromBuild="false">
+      <defaultInstallMode>0</defaultInstallMode>
+    </childFeatures>
+    <defaultInstallMode>3</defaultInstallMode>
+  </projectFeatures>
+  <projectInstallForCurrentOrAllUsers>1</projectInstallForCurrentOrAllUsers>
+  <License>
+    <System>true</System>
+    <Name>LICENSE</Name>
+  </License>
+  <projectProperties LicencePath="license" TopBanner="" BigBanner="icons\couchdb-installer.bmp" ExclamationIcon="" InfoIcon="" NewIcon="" UpIcon="" VS2003Integration="VS2003_INTEGRATION" VS2005Integration="VS2005_INTEGRATION" UseRelativePaths="true" LaunchAppText="" UseWixUI_ErrorProgressText="true" UseWixUI="true" CreateUninstallShortcut="true" Codepage="1252" ProductLanguage="1033" AlwaysMajorUpgrade="true" SupressValidation="false" Compress="true" BuildTarget="true" PublisherUrl="http://couchdb.apache.org/" SupportContact="" SupportUrl="http://wiki.apache.org/couchdb" SupportPhone="" ReadMeFile="[APPLICATIONFOLDER]\README.txt" UpdateUrl="" Comments="" Icon="icons\couchdb-icon.ico" EmbedCab="true" MaxCabSize="0" CabCompressionLevel="high" InstallerVersion="300">
+    <UiCultures Name="en-US" Enabled="true" />
+    <UiCultures Name="de-de" Enabled="false" />
+    <UiCultures Name="es-es" Enabled="false" />
+    <UiCultures Name="nl-nl" Enabled="false" />
+  </projectProperties>
+</WarSetup-Project>
